@@ -1,0 +1,61 @@
+.statistics {
+  height: 100vh;
+  background-image: url("../../assets/images/city_bg_2.jpg");
+  background-size: cover;
+}
+
+.statistics__title {
+  padding-top: 50px;
+  color: black;
+  color: var(--secondary-color);
+  text-align: center;
+  /*text-shadow: 10px 0px 10px rgb(2, 2, 2);*/
+}
+
+.statistics__title h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+}
+
+.statistics__title h4 {
+  font-size: 20px;
+}
+.statistics__data {
+  /* background-color: violet; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+
+.statistics__item {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-shadow: 10px 0px 10px rgb(2, 2, 2);
+  /*border: 5px solid white;*/
+  border-radius: 8px;
+}
+.statistics__item span {
+  /*display: block;*/
+  font-size: 68px;
+}
+
+.statistics__closer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*border: 5px solid white;*/
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 25px;
+}
+
+.statistics__closer h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.statistics__closer li {
+  margin: 5px;
+}

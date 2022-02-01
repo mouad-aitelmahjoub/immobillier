@@ -1,0 +1,20 @@
+.testimonials {
+  height: 100vh;
+}
+
+.testimonials__title {
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+  padding: 25px 0 3px 0;
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.testimonials__subtitle {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 15px;
+}

@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+}
+
+.logo__text {
+  margin-left: 10px;
+}
+.logo__title {
+  font-family: "Lobster", cursive;
+  font-size: 48px;
+}
+
+.logo__subtitle {
+  font-family: "Dancing Script", cursive;
+}
+
+svg.logo__icon {
+  fill: white;
+  width: 80px;
+  height: 80px;
+}

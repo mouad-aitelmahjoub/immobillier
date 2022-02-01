@@ -1,0 +1,67 @@
+.why_us {
+  /*background-color: #eee;*/
+  height: 100vh;
+  width: 85%;
+  margin: 0 auto;
+  padding: 45px;
+  color: var(--secondary-color);
+}
+
+.why_us__title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.why_us__subtitle {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto;
+}
+.why_us__subtitle span {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.why_us__subtitle p {
+  margin-top: 15px;
+}
+
+/* Cards */
+
+.why_us__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.why_us__stats__item {
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.why_us__stats__item__content {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  z-index: 100;
+  margin: 20px auto;
+  padding: 0 25px;
+}
+.why_us__stats__item__content span {
+  font-weight: 800;
+  font-size: 18px;
+}
+.why_us__stats__item__content img {
+  display: block;
+  height: 100px;
+  margin: 50px auto;
+}
+
+.why_us__stats__item__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  filter: brightness(50%);
+}
